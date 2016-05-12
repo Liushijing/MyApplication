@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.keda.viewpagerdemo.MainActivity" >
+ <item
+        android:id="@+id/shareId"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="分享"/>
+    
+     <item
+        android:id="@+id/gobackId"
+        android:orderInCategory="101"
+        android:showAsAction="always"
+        android:title="返回"/>
+    
+      <item
+        android:id="@+id/oneId"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="超小字体"/>
+    <item
+        android:id="@+id/twoId"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="小号字体"/>
+    <item
+        android:id="@+id/threeId"
+        android:orderInCategory="102"
+        android:showAsAction="never"
+        android:title="中号字体"/>
+    <item
+        android:id="@+id/fourId"
+        android:orderInCategory="103"
+        android:showAsAction="never"
+        android:title="大号字体"/>
+    <item
+        android:id="@+id/fiveId"
+        android:orderInCategory="104"
+        android:showAsAction="never"
+        android:title="超大字体"/>
+
+</menu>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/userNameId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:inputType="textPersonName"
+        android:hint="用户名" />
+
+    <EditText
+        android:id="@+id/userPaswId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userNameId"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:hint="密码" />
+
+    <Button
+        android:id="@+id/loginId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="36dp"
+        android:onClick="login"
+        android:text="登录" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/loginId"
+        android:layout_alignBottom="@+id/loginId"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="35dp"
+        android:text="注册" />
+
+</RelativeLayout>
